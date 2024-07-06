@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OCUTS BARBERSITE</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            color: white;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        header {
+            background-color: #000000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            flex-shrink: 0;
+            position: relative;
+        }
+        header img.logo {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 80px;
+            height: auto;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #d31111;
+            flex-shrink: 0;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #000000;
+        }
+        .content {
+            padding: 20px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            overflow: auto;
+        }
+        .social-media {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .social-media a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.5em;
+            margin: 0 10px;
+            transition: color 0.3s;
+        }
+        .social-media a:hover {
+            color: #1DA1F2;
+        }
+        .iframe-container {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+        }
+        .iframe-container iframe {
+            width: 45%;
+            height: 500px;
+            border: none;
+        }
+        footer {
+            background-color: #000000;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://i.postimg.cc/JzrkP8rR/temp-Image8-UDv-Aw.avif" alt="OCUTS Logo" class="logo">
+        <h1>💈OCUTS BARBERSITE💈</h1>
+    </header>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="content">
+        <div class="social-media">
+            <p>Follow us on our social media channels:</p>
+            <a href="https://www.instagram.com/ocuts_/" target="_blank">Instagram</a>
+            <a href="https://www.tiktok.com/@omezel?lang=en" target="_blank">TikTok</a>
+        </div>
+        <div class="iframe-container">
+            <iframe src="https://www.instagram.com/ocuts_/" allowfullscreen></iframe>
+            <iframe src="https://www.tiktok.com/@omezel?lang=en" allowfullscreen></iframe>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 BARBERSITE. All rights reserved to OCUTS.</p>
+    </footer>
+</body>
+</html>
